@@ -1,0 +1,29 @@
+.input {
+    width: 95%;
+    padding: 10px;
+    border: 2px solid #aaa;
+    border-radius:4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+    input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    }
+
+body {
+    background-color: rgb(218, 37, 37);
+}
+
+#P1, #P2 {
+    background-color: white;
+    border-radius: 20px;
+    width: 1000px;
+}
+#btn {
+    width: 25%;
+}
